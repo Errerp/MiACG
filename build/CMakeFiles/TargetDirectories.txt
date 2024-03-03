@@ -1,0 +1,6 @@
+D:/labexample/build/CMakeFiles/external_all.dir
+D:/labexample/build/CMakeFiles/SDL2-external.dir
+D:/labexample/build/CMakeFiles/glm-external.dir
+D:/labexample/build/CMakeFiles/sdl2-demo.dir
+D:/labexample/build/CMakeFiles/ALL_BUILD.dir
+D:/labexample/build/CMakeFiles/ZERO_CHECK.dir

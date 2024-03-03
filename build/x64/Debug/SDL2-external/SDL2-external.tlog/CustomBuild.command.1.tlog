@@ -1,0 +1,134 @@
+^D:\LABEXAMPLE\BUILD\CMAKEFILES\A8F15FFA138EE7B1A8387EB92F651731\SDL2-EXTERNAL-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P D:/labexample/build/external-libs/installed/source-tree/tmp/SDL2-external-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-stamp/Debug/SDL2-external-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\LABEXAMPLE\BUILD\CMAKEFILES\A8F15FFA138EE7B1A8387EB92F651731\SDL2-EXTERNAL-DOWNLOAD.RULE
+setlocal
+cd D:\labexample\build\external-libs\installed\source-tree\src
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-stamp/verify-SDL2-external.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-stamp/extract-SDL2-external.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-stamp/Debug/SDL2-external-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\LABEXAMPLE\BUILD\CMAKEFILES\A8F15FFA138EE7B1A8387EB92F651731\SDL2-EXTERNAL-UPDATE_DISCONNECTED.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-stamp/Debug/SDL2-external-update_disconnected
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\LABEXAMPLE\BUILD\CMAKEFILES\A8F15FFA138EE7B1A8387EB92F651731\SDL2-EXTERNAL-PATCH_DISCONNECTED.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-stamp/Debug/SDL2-external-patch_disconnected
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\LABEXAMPLE\BUILD\CMAKEFILES\A8F15FFA138EE7B1A8387EB92F651731\SDL2-EXTERNAL-CONFIGURE.RULE
+setlocal
+cd D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_PREFIX=D:/labexample/build/external-libs/installed -DBUILD_SHARED_LIBS:BOOL=OFF -DCMAKE_BUILD_TYPE=Release "-GVisual Studio 17 2022" -Ax64 -Thost=x64 "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files/Microsoft Visual Studio/2022/Community" -S D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external -B D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-stamp/Debug/SDL2-external-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\LABEXAMPLE\BUILD\CMAKEFILES\A8F15FFA138EE7B1A8387EB92F651731\SDL2-EXTERNAL-BUILD.RULE
+setlocal
+cd D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" --build . --config Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-stamp/Debug/SDL2-external-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\LABEXAMPLE\BUILD\CMAKEFILES\A8F15FFA138EE7B1A8387EB92F651731\SDL2-EXTERNAL-INSTALL.RULE
+setlocal
+cd D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" --build . --config Debug --target install
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-stamp/Debug/SDL2-external-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\LABEXAMPLE\BUILD\CMAKEFILES\CB8074CF5BEDED7A662A057EF5277743\SDL2-EXTERNAL-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/labexample/build/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/labexample/build/CMakeFiles/Debug/SDL2-external-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-stamp/Debug/SDL2-external-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\LABEXAMPLE\BUILD\CMAKEFILES\A55FF3E8FED29456AF35B11F6BC78843\SDL2-EXTERNAL.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\LABEXAMPLE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/labexample -BD:/labexample/build --check-stamp-file D:/labexample/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

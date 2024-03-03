@@ -1,0 +1,8 @@
+D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/sdl_headers_copy.dir
+D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/SDL2main.dir
+D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/SDL2-static.dir
+D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/SDL2_test.dir
+D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/uninstall.dir
+D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/INSTALL.dir
+D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/ALL_BUILD.dir
+D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/ZERO_CHECK.dir
