@@ -14,10 +14,6 @@ SDL_Renderer *gRenderer = NULL;
 SDL_Texture *gTexture = NULL;
 SDL_Surface *loadedSurface = NULL;
 
-float a = 30;
-float b = 90;
-float x_move = 0;
-float y_move = 0;
 
 bool init()
 {
@@ -61,6 +57,11 @@ void clearScreen(SDL_Surface* s) {
 
 int main(int argc, char *argv[])
 {
+  float a = 30;
+  float b = 90;
+  int x_move = SCREEN_WIDTH / 2;
+  int y_move = SCREEN_HEIGHT / 2;
+  float alpha = 0;
   if (!init()) {
     printf("Failed to initialize!\n");
   } else {
@@ -130,18 +131,30 @@ int main(int argc, char *argv[])
               break;
             case SDL_SCANCODE_UP:
               printf("SDL_SCANCODE_UP have been pressed\n");
-              y_move += 10;
+              y_move -= 10;
               clearScreen(loadedSurface);
               break;
             case SDL_SCANCODE_DOWN:
               printf("SDL_SCANCODE_DOWN have been pressed\n");
-              y_move -= 10;
+              y_move += 10;
               clearScreen(loadedSurface);
               break;
             case SDL_SCANCODE_KP_ENTER:
               printf("SDL_SCANCODE_DOWN have been pressed\n");
-              x_move = 0;
-              y_move = 0;
+              x_move = SCREEN_WIDTH / 2;
+              y_move = SCREEN_HEIGHT / 2;
+              clearScreen(loadedSurface);
+              break;
+            case SDL_SCANCODE_KP_7:
+              alpha += 0.1;
+              clearScreen(loadedSurface);
+              break;
+            case SDL_SCANCODE_KP_9:
+              alpha -= 0.1;
+              clearScreen(loadedSurface);
+              break;
+            case SDL_SCANCODE_KP_8:
+              alpha = 0;
               clearScreen(loadedSurface);
               break;
             default:
@@ -151,7 +164,7 @@ int main(int argc, char *argv[])
         }
         SDL_RenderClear(gRenderer);
 
-        draw(loadedSurface, a, b, x_move, y_move);
+        draw(loadedSurface, a, b, x_move, y_move, alpha);
 
         SDL_UpdateTexture(gTexture, NULL, loadedSurface->pixels, loadedSurface->pitch);
         SDL_RenderCopy(gRenderer, gTexture, NULL, NULL);

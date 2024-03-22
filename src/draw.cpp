@@ -25,7 +25,7 @@ Uint32 get_pixel32(SDL_Surface *surface, int x, int y)
   return pixels[(y * surface->w) + x];
 }
 
-void draw(SDL_Surface *s, float a, float b, float x_move , float y_move )
+void draw(SDL_Surface *s, float a, float b, float x_move , float y_move,float alpha )
 {
   glm::vec4 Position = glm::vec4(glm::vec3(0.0f), 1.0f);
   glm::mat4 Model = glm::translate(glm::mat4(1.0f), glm::vec3(1.0f));
@@ -39,8 +39,8 @@ void draw(SDL_Surface *s, float a, float b, float x_move , float y_move )
   }
 
   for (float phi = -100; phi < 2 * M_PI; phi += 0.01) {
-      float x = SCREEN_WIDTH / 2 + b * cos(phi) + x_move;
-      float y = b * sin(phi) + SCREEN_HEIGHT / 2 - y_move;
+      float x = x_move + b * cos(phi);
+      float y = b * sin(phi) + y_move;
       if (y >= 0 && y < SCREEN_HEIGHT && x >= 0 && x < SCREEN_WIDTH)
         put_pixel32(s, x, y, RGB32(0, 0, 100));
   }
@@ -48,30 +48,15 @@ void draw(SDL_Surface *s, float a, float b, float x_move , float y_move )
   for (float phi = -100; phi < 100; phi += 0.01) {
     float x = (a + b) * cos(phi) - a * cos(((a + b) * phi) / a);
     float y = (a + b) * sin(phi) - a * sin(((a + b) * phi) / a);
-    int xr = round(x);
-    xr += SCREEN_WIDTH / 2 + x_move;
-    int yr = round(y);
-    yr += SCREEN_HEIGHT / 2 - y_move;
+
+    float x_rotate = x * cos(alpha) + y * sin(alpha);
+    float y_rotate = -x * sin(alpha) + y * cos(alpha);
+
+    int xr = x_move + x_rotate;
+    int yr = y_move + y_rotate;
+
+
     if (yr >= 0 && yr < SCREEN_HEIGHT && xr >= 0 && xr < SCREEN_WIDTH)
       put_pixel32(s, xr, yr, RGB32(0, 255, 0));
   }
-  // Ваш код
-  // ...
-  // for (int i = 30; i < 100; i++)
-  //   for (int j = 30; j < 100; j++)
-  //     put_pixel32(s, i, j, 0x00FF0000);
-
-  // // Формат цвета в HEX коде:
-  // //     0x00RRGGBB
-  // //  где R: от 00 до FF
-  // //      G: от 00 до FF
-  // //      B: от 00 до FF
-
-  // for (int i = 100; i < 200; i++)
-  //   for (int j = 100; j < 180; j++)
-  //     put_pixel32(s, i, j, RGB32(0, 255, 0));
-
-
-  // или использу¤ макрос можно получить код цвета:
-  //   RGB32(0, 255, 0) эквивалентно записи 0x0000FF00
 }
