@@ -49,11 +49,11 @@ void draw(SDL_Surface *s, float a, float b, float x_move , float y_move,float al
     float x = (a + b) * cos(phi) - a * cos(((a + b) * phi) / a);
     float y = (a + b) * sin(phi) - a * sin(((a + b) * phi) / a);
 
-    float x_rotate = x * cos(alpha) + y * sin(alpha);
-    float y_rotate = -x * sin(alpha) + y * cos(alpha);
+    float x_spin = x * cos(alpha) + y * sin(alpha);
+    float y_spin = -x * sin(alpha) + y * cos(alpha);
 
-    int xr = x_move + x_rotate;
-    int yr = y_move + y_rotate;
+    int xr = x_move + x_spin;
+    int yr = y_move + y_spin;
 
 
     if (yr >= 0 && yr < SCREEN_HEIGHT && xr >= 0 && xr < SCREEN_WIDTH)
