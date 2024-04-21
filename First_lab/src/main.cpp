@@ -49,7 +49,8 @@ void close()
   SDL_Quit();
 }
 
-void clearScreen(SDL_Surface* s) {
+void clearScreen(SDL_Surface *s)
+{
   memset(s->pixels, 0, SCREEN_HEIGHT * SCREEN_WIDTH * 4);
 }
 
@@ -90,15 +91,15 @@ int main(int argc, char *argv[])
             switch (e.key.keysym.scancode) {
             case SDL_SCANCODE_KP_PLUS:
               printf("SDL_SCANCODE_KP_PLUS have been presssed\n");
-                a *= 1.1;
-                b *= 1.1;
+              a *= 1.1;
+              b *= 1.1;
               clearScreen(loadedSurface);
-            break;
+              break;
             case SDL_SCANCODE_KP_MINUS:
               printf("SDL_SCANCODE_KP_MINUS have been presssed\n");
-                a /= 1.1;
-                b /= 1.1;
-                clearScreen(loadedSurface);
+              a /= 1.1;
+              b /= 1.1;
+              clearScreen(loadedSurface);
               break;
             case SDL_SCANCODE_ESCAPE:
               quit = true;
@@ -124,28 +125,57 @@ int main(int argc, char *argv[])
             case SDL_SCANCODE_RIGHT:
               printf("SDL_SCANCODE_RIGHT have been pressed\n");
               x_move += 10;
+
+              alpha += beta;
+              beta = 0;
+
+              x_move += round(diff_x);
+              y_move += round(diff_y);
               clearScreen(loadedSurface);
               break;
             case SDL_SCANCODE_LEFT:
               printf("SDL_SCANCODE_LEFT have been pressed\n");
               x_move -= 10;
+
+              alpha += beta;
+              beta = 0;
+
+              x_move += round(diff_x);
+              y_move += round(diff_y);
               clearScreen(loadedSurface);
               break;
             case SDL_SCANCODE_UP:
               printf("SDL_SCANCODE_UP have been pressed\n");
               y_move -= 10;
+
+              alpha += beta;
+              beta = 0;
+
+              x_move += round(diff_x);
+              y_move += round(diff_y);
               clearScreen(loadedSurface);
               break;
             case SDL_SCANCODE_DOWN:
               printf("SDL_SCANCODE_DOWN have been pressed\n");
               y_move += 10;
-              clearScreen(loadedSurface);
 
+              alpha += beta;
+              beta = 0;
+
+              x_move += round(diff_x);
+              y_move += round(diff_y);
+              clearScreen(loadedSurface);
               break;
             case SDL_SCANCODE_KP_ENTER:
               printf("SDL_SCANCODE_DOWN have been pressed\n");
               x_move = SCREEN_WIDTH / 2;
               y_move = SCREEN_HEIGHT / 2;
+
+              alpha += beta;
+              beta = 0;
+
+              x_move += round(diff_x);
+              y_move += round(diff_y);
               clearScreen(loadedSurface);
               break;
             case SDL_SCANCODE_KP_4:
@@ -160,7 +190,7 @@ int main(int argc, char *argv[])
               beta = 0;
               clearScreen(loadedSurface);
               break;
-              case SDL_SCANCODE_KP_7:
+            case SDL_SCANCODE_KP_7:
               alpha += 0.1;
               clearScreen(loadedSurface);
               break;
