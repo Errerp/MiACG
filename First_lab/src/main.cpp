@@ -14,7 +14,6 @@ SDL_Renderer *gRenderer = NULL;
 SDL_Texture *gTexture = NULL;
 SDL_Surface *loadedSurface = NULL;
 
-
 bool init()
 {
   bool success = true;
@@ -51,7 +50,6 @@ void close()
 }
 
 void clearScreen(SDL_Surface* s) {
-  //memset
   memset(s->pixels, 0, SCREEN_HEIGHT * SCREEN_WIDTH * 4);
 }
 
@@ -62,6 +60,10 @@ int main(int argc, char *argv[])
   int x_move = SCREEN_WIDTH / 2;
   int y_move = SCREEN_HEIGHT / 2;
   float alpha = 0;
+  float beta = 0;
+  int rotate_x = SCREEN_WIDTH / 2;
+  int rotate_y = SCREEN_HEIGHT / 2;
+  float diff_x = 0, diff_y = 0;
   if (!init()) {
     printf("Failed to initialize!\n");
   } else {
@@ -138,6 +140,7 @@ int main(int argc, char *argv[])
               printf("SDL_SCANCODE_DOWN have been pressed\n");
               y_move += 10;
               clearScreen(loadedSurface);
+
               break;
             case SDL_SCANCODE_KP_ENTER:
               printf("SDL_SCANCODE_DOWN have been pressed\n");
@@ -145,7 +148,19 @@ int main(int argc, char *argv[])
               y_move = SCREEN_HEIGHT / 2;
               clearScreen(loadedSurface);
               break;
-            case SDL_SCANCODE_KP_7:
+            case SDL_SCANCODE_KP_4:
+              beta += 0.1;
+              clearScreen(loadedSurface);
+              break;
+            case SDL_SCANCODE_KP_6:
+              beta -= 0.1;
+              clearScreen(loadedSurface);
+              break;
+            case SDL_SCANCODE_KP_5:
+              beta = 0;
+              clearScreen(loadedSurface);
+              break;
+              case SDL_SCANCODE_KP_7:
               alpha += 0.1;
               clearScreen(loadedSurface);
               break;
@@ -161,10 +176,23 @@ int main(int argc, char *argv[])
               break;
             }
           }
+          if (e.type == SDL_MOUSEBUTTONDOWN) {
+            SDL_GetMouseState(&rotate_x, &rotate_y);
+            alpha += beta;
+            beta = 0;
+
+            x_move += round(diff_x);
+            y_move += round(diff_y);
+
+            diff_x = 0;
+            diff_y = 0;
+
+            clearScreen(loadedSurface);
+          }
         }
         SDL_RenderClear(gRenderer);
 
-        draw(loadedSurface, a, b, x_move, y_move, alpha);
+        draw(loadedSurface, a, b, x_move, y_move, alpha, beta, rotate_x, rotate_y, diff_x, diff_y);
 
         SDL_UpdateTexture(gTexture, NULL, loadedSurface->pixels, loadedSurface->pitch);
         SDL_RenderCopy(gRenderer, gTexture, NULL, NULL);
