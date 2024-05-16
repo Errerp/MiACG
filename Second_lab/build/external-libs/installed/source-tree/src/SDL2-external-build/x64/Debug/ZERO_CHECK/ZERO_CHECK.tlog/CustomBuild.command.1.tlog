@@ -1,0 +1,10 @@
+^D:\LABEXAMPLE\BUILD\EXTERNAL-LIBS\INSTALLED\SOURCE-TREE\SRC\SDL2-EXTERNAL-BUILD\CMAKEFILES\FFE2895FA968001736FC451E6EAFC36A\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/labexample/build/external-libs/installed/source-tree/src/SDL2-external -BD:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/SDL2.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

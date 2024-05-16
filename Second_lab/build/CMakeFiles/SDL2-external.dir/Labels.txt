@@ -1,0 +1,13 @@
+# Target labels
+ SDL2-external
+# Source files and their labels
+D:/labexample/build/CMakeFiles/SDL2-external
+D:/labexample/build/CMakeFiles/a55ff3e8fed29456af35b11f6bc78843/SDL2-external.rule
+D:/labexample/build/CMakeFiles/cb8074cf5beded7a662a057ef5277743/SDL2-external-complete.rule
+D:/labexample/build/CMakeFiles/a8f15ffa138ee7b1a8387eb92f651731/SDL2-external-build.rule
+D:/labexample/build/CMakeFiles/a8f15ffa138ee7b1a8387eb92f651731/SDL2-external-configure.rule
+D:/labexample/build/CMakeFiles/a8f15ffa138ee7b1a8387eb92f651731/SDL2-external-download.rule
+D:/labexample/build/CMakeFiles/a8f15ffa138ee7b1a8387eb92f651731/SDL2-external-install.rule
+D:/labexample/build/CMakeFiles/a8f15ffa138ee7b1a8387eb92f651731/SDL2-external-mkdir.rule
+D:/labexample/build/CMakeFiles/a8f15ffa138ee7b1a8387eb92f651731/SDL2-external-patch_disconnected.rule
+D:/labexample/build/CMakeFiles/a8f15ffa138ee7b1a8387eb92f651731/SDL2-external-update_disconnected.rule

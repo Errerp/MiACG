@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_assert.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_atomic.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_audio.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_bits.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_blendmode.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_clipboard.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_copying.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_cpuinfo.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_egl.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_endian.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_error.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_events.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_filesystem.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_gamecontroller.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_gesture.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_guid.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_haptic.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_hidapi.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_hints.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_joystick.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_keyboard.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_keycode.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_loadso.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_locale.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_log.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_main.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_messagebox.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_metal.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_misc.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_mouse.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_mutex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_name.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_opengl.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_opengl_glext.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_opengles.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_opengles2.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_opengles2_gl2.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_opengles2_gl2ext.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_opengles2_gl2platform.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_opengles2_khrplatform.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_pixels.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_platform.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_power.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_quit.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_rect.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_render.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_rwops.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_scancode.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_sensor.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_shape.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_stdinc.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_surface.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_system.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_syswm.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_test.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_test_assert.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_test_common.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_test_compare.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_test_crc32.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_test_font.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_test_fuzzer.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_test_harness.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_test_images.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_test_log.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_test_md5.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_test_memory.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_test_random.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_thread.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_timer.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_touch.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_types.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_version.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_video.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\SDL_vulkan.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\begin_code.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\4a28b6c41c61bf042619c0e20e47d38f\close_code.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\ffe2895fa968001736fc451e6eafc36a\sdl_headers_copy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\labexample\build\external-libs\installed\source-tree\src\SDL2-external-build\CMakeFiles\sdl_headers_copy" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{7F15F425-30FA-38A2-ACC4-963DFBC90D0D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

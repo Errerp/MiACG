@@ -1,0 +1,372 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "sdl2-demo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-31b7b378d4efa3c9db59.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL2-external::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL2-external-Debug-12050104e9686cb1925d.json",
+					"name" : "SDL2-external",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-26ae141b5b2cc0fe5631.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "external_all::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-external_all-Debug-738d15f10750bbbb3b9f.json",
+					"name" : "external_all",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "glm-external::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-glm-external-Debug-f3c0566f9db41384eb40.json",
+					"name" : "glm-external",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sdl2-demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sdl2-demo-Debug-288582794b6d0beae329.json",
+					"name" : "sdl2-demo",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "sdl2-demo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-31b7b378d4efa3c9db59.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL2-external::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL2-external-Release-12050104e9686cb1925d.json",
+					"name" : "SDL2-external",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-26ae141b5b2cc0fe5631.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "external_all::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-external_all-Release-738d15f10750bbbb3b9f.json",
+					"name" : "external_all",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "glm-external::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-glm-external-Release-f3c0566f9db41384eb40.json",
+					"name" : "glm-external",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sdl2-demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sdl2-demo-Release-c4c89634a850c47e1386.json",
+					"name" : "sdl2-demo",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-MinSizeRel-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "sdl2-demo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-31b7b378d4efa3c9db59.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL2-external::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL2-external-MinSizeRel-12050104e9686cb1925d.json",
+					"name" : "SDL2-external",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-26ae141b5b2cc0fe5631.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "external_all::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-external_all-MinSizeRel-738d15f10750bbbb3b9f.json",
+					"name" : "external_all",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "glm-external::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-glm-external-MinSizeRel-f3c0566f9db41384eb40.json",
+					"name" : "glm-external",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sdl2-demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sdl2-demo-MinSizeRel-cb703b4c1a53bb827fd6.json",
+					"name" : "sdl2-demo",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "sdl2-demo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-31b7b378d4efa3c9db59.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL2-external::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL2-external-RelWithDebInfo-12050104e9686cb1925d.json",
+					"name" : "SDL2-external",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-26ae141b5b2cc0fe5631.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "external_all::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-external_all-RelWithDebInfo-738d15f10750bbbb3b9f.json",
+					"name" : "external_all",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "glm-external::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-glm-external-RelWithDebInfo-f3c0566f9db41384eb40.json",
+					"name" : "glm-external",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sdl2-demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sdl2-demo-RelWithDebInfo-5db01a9bfeb0a70bd4e7.json",
+					"name" : "sdl2-demo",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/labexample/build",
+		"source" : "D:/labexample"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

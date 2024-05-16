@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/labexample/build/CMakeFiles/glm-external"
+		},
+		{
+			"file" : "D:/labexample/build/CMakeFiles/a55ff3e8fed29456af35b11f6bc78843/glm-external.rule"
+		},
+		{
+			"file" : "D:/labexample/build/CMakeFiles/cb8074cf5beded7a662a057ef5277743/glm-external-complete.rule"
+		},
+		{
+			"file" : "D:/labexample/build/CMakeFiles/6fa34dce766b49a98e5ae76465c44e24/glm-external-build.rule"
+		},
+		{
+			"file" : "D:/labexample/build/CMakeFiles/6fa34dce766b49a98e5ae76465c44e24/glm-external-configure.rule"
+		},
+		{
+			"file" : "D:/labexample/build/CMakeFiles/6fa34dce766b49a98e5ae76465c44e24/glm-external-download.rule"
+		},
+		{
+			"file" : "D:/labexample/build/CMakeFiles/6fa34dce766b49a98e5ae76465c44e24/glm-external-install.rule"
+		},
+		{
+			"file" : "D:/labexample/build/CMakeFiles/6fa34dce766b49a98e5ae76465c44e24/glm-external-mkdir.rule"
+		},
+		{
+			"file" : "D:/labexample/build/CMakeFiles/6fa34dce766b49a98e5ae76465c44e24/glm-external-patch_disconnected.rule"
+		},
+		{
+			"file" : "D:/labexample/build/CMakeFiles/6fa34dce766b49a98e5ae76465c44e24/glm-external-update_disconnected.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"glm-external"
+		],
+		"name" : "glm-external"
+	}
+}

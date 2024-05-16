@@ -1,0 +1,1408 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      The system is: Windows - 10.0.22621 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+      Сборка начата 01.03.2024 18:11:17.
+      
+      Проект "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\3.29.0-rc2\\CompilerIdC\\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+        Создание каталога "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        Обращение к "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\3.29.0-rc2\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Сборка проекта "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\3.29.0-rc2\\CompilerIdC\\CompilerIdC.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:00.69
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/3.29.0-rc2/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+      Сборка начата 01.03.2024 18:11:18.
+      
+      Проект "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\3.29.0-rc2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+        Создание каталога "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        Обращение к "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\3.29.0-rc2\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Сборка проекта "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\3.29.0-rc2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:00.63
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/3.29.0-rc2/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-1j1z9y"
+      binary: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-1j1z9y"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-1j1z9y'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3dc86.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+        Сборка начата 01.03.2024 18:11:19.
+        
+        Проект "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-1j1z9y\\cmTC_3dc86.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_3dc86.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-1j1z9y\\Debug\\".
+          Создание каталога "cmTC_3dc86.dir\\Debug\\cmTC_3dc86.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_3dc86.dir\\Debug\\cmTC_3dc86.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_3dc86.dir\\Debug\\cmTC_3dc86.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3dc86.dir\\Debug\\\\" /Fd"cmTC_3dc86.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33521 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3dc86.dir\\Debug\\\\" /Fd"cmTC_3dc86.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-1j1z9y\\Debug\\cmTC_3dc86.exe" /INCREMENTAL /ILK:"cmTC_3dc86.dir\\Debug\\cmTC_3dc86.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-1j1z9y/Debug/cmTC_3dc86.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-1j1z9y/Debug/cmTC_3dc86.lib" /MACHINE:X64  /machine:x64 cmTC_3dc86.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_3dc86.vcxproj -> D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-1j1z9y\\Debug\\cmTC_3dc86.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_3dc86.dir\\Debug\\cmTC_3dc86.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_3dc86.dir\\Debug\\cmTC_3dc86.tlog\\cmTC_3dc86.lastbuildstate".
+        Сборка проекта "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-1j1z9y\\cmTC_3dc86.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.59
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.39.33521.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-93t3t2"
+      binary: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-93t3t2"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-93t3t2'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_45351.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+        Сборка начата 01.03.2024 18:11:20.
+        
+        Проект "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-93t3t2\\cmTC_45351.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_45351.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-93t3t2\\Debug\\".
+          Создание каталога "cmTC_45351.dir\\Debug\\cmTC_45351.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_45351.dir\\Debug\\cmTC_45351.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_45351.dir\\Debug\\cmTC_45351.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_45351.dir\\Debug\\\\" /Fd"cmTC_45351.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33521 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_45351.dir\\Debug\\\\" /Fd"cmTC_45351.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-93t3t2\\Debug\\cmTC_45351.exe" /INCREMENTAL /ILK:"cmTC_45351.dir\\Debug\\cmTC_45351.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-93t3t2/Debug/cmTC_45351.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-93t3t2/Debug/cmTC_45351.lib" /MACHINE:X64  /machine:x64 cmTC_45351.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_45351.vcxproj -> D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-93t3t2\\Debug\\cmTC_45351.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_45351.dir\\Debug\\cmTC_45351.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_45351.dir\\Debug\\cmTC_45351.tlog\\cmTC_45351.lastbuildstate".
+        Сборка проекта "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-93t3t2\\cmTC_45351.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.59
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.39.33521.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:81 (check_symbol_exists)"
+    checks:
+      - "Looking for __GLIBC__"
+    directories:
+      source: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-17b889"
+      binary: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-17b889"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external/cmake"
+    buildResult:
+      variable: "LIBC_IS_GLIBC"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-17b889'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_737b6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+        Сборка начата 01.03.2024 18:11:21.
+        
+        Проект "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-17b889\\cmTC_737b6.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_737b6.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-17b889\\Debug\\".
+          Создание каталога "cmTC_737b6.dir\\Debug\\cmTC_737b6.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_737b6.dir\\Debug\\cmTC_737b6.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_737b6.dir\\Debug\\cmTC_737b6.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_737b6.dir\\Debug\\\\" /Fd"cmTC_737b6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-17b889\\CheckSymbolExists.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33521 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_737b6.dir\\Debug\\\\" /Fd"cmTC_737b6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-17b889\\CheckSymbolExists.c"
+          CheckSymbolExists.c
+        D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-17b889\\CheckSymbolExists.c(8,28): error C2065: __GLIBC__: необъявленный идентификатор [D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-17b889\\cmTC_737b6.vcxproj]
+        Сборка проекта "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-17b889\\cmTC_737b6.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-17b889\\cmTC_737b6.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-17b889\\CheckSymbolExists.c(8,28): error C2065: __GLIBC__: необъявленный идентификатор [D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-17b889\\cmTC_737b6.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.43
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:953 (check_include_file)"
+    checks:
+      - "Looking for immintrin.h"
+    directories:
+      source: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-2ebkm2"
+      binary: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-2ebkm2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external/cmake"
+    buildResult:
+      variable: "HAVE_IMMINTRIN_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-2ebkm2'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_69142.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+        Сборка начата 01.03.2024 18:11:21.
+        
+        Проект "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-2ebkm2\\cmTC_69142.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_69142.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-2ebkm2\\Debug\\".
+          Создание каталога "cmTC_69142.dir\\Debug\\cmTC_69142.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_69142.dir\\Debug\\cmTC_69142.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_69142.dir\\Debug\\cmTC_69142.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_69142.dir\\Debug\\\\" /Fd"cmTC_69142.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-2ebkm2\\CheckIncludeFile.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33521 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_69142.dir\\Debug\\\\" /Fd"cmTC_69142.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-2ebkm2\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-2ebkm2\\Debug\\cmTC_69142.exe" /INCREMENTAL /ILK:"cmTC_69142.dir\\Debug\\cmTC_69142.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-2ebkm2/Debug/cmTC_69142.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-2ebkm2/Debug/cmTC_69142.lib" /MACHINE:X64  /machine:x64 cmTC_69142.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_69142.vcxproj -> D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-2ebkm2\\Debug\\cmTC_69142.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_69142.dir\\Debug\\cmTC_69142.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_69142.dir\\Debug\\cmTC_69142.tlog\\cmTC_69142.lastbuildstate".
+        Сборка проекта "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-2ebkm2\\cmTC_69142.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.64
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:1103 (check_include_file)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-sgvoha"
+      binary: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-sgvoha"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external/cmake"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-sgvoha'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_160a6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+        Сборка начата 01.03.2024 18:11:22.
+        
+        Проект "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-sgvoha\\cmTC_160a6.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_160a6.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-sgvoha\\Debug\\".
+          Создание каталога "cmTC_160a6.dir\\Debug\\cmTC_160a6.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_160a6.dir\\Debug\\cmTC_160a6.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_160a6.dir\\Debug\\cmTC_160a6.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_160a6.dir\\Debug\\\\" /Fd"cmTC_160a6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-sgvoha\\CheckIncludeFile.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33521 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_160a6.dir\\Debug\\\\" /Fd"cmTC_160a6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-sgvoha\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-sgvoha\\Debug\\cmTC_160a6.exe" /INCREMENTAL /ILK:"cmTC_160a6.dir\\Debug\\cmTC_160a6.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-sgvoha/Debug/cmTC_160a6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-sgvoha/Debug/cmTC_160a6.lib" /MACHINE:X64  /machine:x64 cmTC_160a6.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_160a6.vcxproj -> D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-sgvoha\\Debug\\cmTC_160a6.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_160a6.dir\\Debug\\cmTC_160a6.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_160a6.dir\\Debug\\cmTC_160a6.tlog\\cmTC_160a6.lastbuildstate".
+        Сборка проекта "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-sgvoha\\cmTC_160a6.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.86
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:1676 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_WIN32_CC"
+    directories:
+      source: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-9rlars"
+      binary: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-9rlars"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external/cmake"
+    buildResult:
+      variable: "HAVE_WIN32_CC"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-9rlars'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2dff2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+        Сборка начата 01.03.2024 18:11:24.
+        
+        Проект "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-9rlars\\cmTC_2dff2.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_2dff2.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-9rlars\\Debug\\".
+          Создание каталога "cmTC_2dff2.dir\\Debug\\cmTC_2dff2.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_2dff2.dir\\Debug\\cmTC_2dff2.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_2dff2.dir\\Debug\\cmTC_2dff2.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_WIN32_CC /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2dff2.dir\\Debug\\\\" /Fd"cmTC_2dff2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-9rlars\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33521 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_WIN32_CC /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2dff2.dir\\Debug\\\\" /Fd"cmTC_2dff2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-9rlars\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-9rlars\\Debug\\cmTC_2dff2.exe" /INCREMENTAL /ILK:"cmTC_2dff2.dir\\Debug\\cmTC_2dff2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-9rlars/Debug/cmTC_2dff2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-9rlars/Debug/cmTC_2dff2.lib" /MACHINE:X64  /machine:x64 cmTC_2dff2.dir\\Debug\\src.obj
+          cmTC_2dff2.vcxproj -> D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-9rlars\\Debug\\cmTC_2dff2.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_2dff2.dir\\Debug\\cmTC_2dff2.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_2dff2.dir\\Debug\\cmTC_2dff2.tlog\\cmTC_2dff2.lastbuildstate".
+        Сборка проекта "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-9rlars\\cmTC_2dff2.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:01.16
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:1718 (check_include_file)"
+    checks:
+      - "Looking for d3d9.h"
+    directories:
+      source: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-j16e60"
+      binary: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-j16e60"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external/cmake"
+    buildResult:
+      variable: "HAVE_D3D_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-j16e60'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d29a9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+        Сборка начата 01.03.2024 18:11:25.
+        
+        Проект "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-j16e60\\cmTC_d29a9.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_d29a9.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-j16e60\\Debug\\".
+          Создание каталога "cmTC_d29a9.dir\\Debug\\cmTC_d29a9.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_d29a9.dir\\Debug\\cmTC_d29a9.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_d29a9.dir\\Debug\\cmTC_d29a9.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d29a9.dir\\Debug\\\\" /Fd"cmTC_d29a9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-j16e60\\CheckIncludeFile.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33521 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d29a9.dir\\Debug\\\\" /Fd"cmTC_d29a9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-j16e60\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-j16e60\\Debug\\cmTC_d29a9.exe" /INCREMENTAL /ILK:"cmTC_d29a9.dir\\Debug\\cmTC_d29a9.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-j16e60/Debug/cmTC_d29a9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-j16e60/Debug/cmTC_d29a9.lib" /MACHINE:X64  /machine:x64 cmTC_d29a9.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_d29a9.vcxproj -> D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-j16e60\\Debug\\cmTC_d29a9.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_d29a9.dir\\Debug\\cmTC_d29a9.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_d29a9.dir\\Debug\\cmTC_d29a9.tlog\\cmTC_d29a9.lastbuildstate".
+        Сборка проекта "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-j16e60\\cmTC_d29a9.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.85
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:1719 (check_include_file)"
+    checks:
+      - "Looking for d3d11_1.h"
+    directories:
+      source: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-071723"
+      binary: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-071723"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external/cmake"
+    buildResult:
+      variable: "HAVE_D3D11_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-071723'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2f3e6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+        Сборка начата 01.03.2024 18:11:26.
+        
+        Проект "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-071723\\cmTC_2f3e6.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_2f3e6.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-071723\\Debug\\".
+          Создание каталога "cmTC_2f3e6.dir\\Debug\\cmTC_2f3e6.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_2f3e6.dir\\Debug\\cmTC_2f3e6.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_2f3e6.dir\\Debug\\cmTC_2f3e6.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2f3e6.dir\\Debug\\\\" /Fd"cmTC_2f3e6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-071723\\CheckIncludeFile.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33521 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2f3e6.dir\\Debug\\\\" /Fd"cmTC_2f3e6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-071723\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-071723\\Debug\\cmTC_2f3e6.exe" /INCREMENTAL /ILK:"cmTC_2f3e6.dir\\Debug\\cmTC_2f3e6.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-071723/Debug/cmTC_2f3e6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-071723/Debug/cmTC_2f3e6.lib" /MACHINE:X64  /machine:x64 cmTC_2f3e6.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_2f3e6.vcxproj -> D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-071723\\Debug\\cmTC_2f3e6.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_2f3e6.dir\\Debug\\cmTC_2f3e6.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_2f3e6.dir\\Debug\\cmTC_2f3e6.tlog\\cmTC_2f3e6.lastbuildstate".
+        Сборка проекта "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-071723\\cmTC_2f3e6.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:01.00
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:1720 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_D3D12_H"
+    directories:
+      source: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-m5ct5i"
+      binary: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-m5ct5i"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external/cmake"
+    buildResult:
+      variable: "HAVE_D3D12_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-m5ct5i'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8e7e4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+        Сборка начата 01.03.2024 18:11:27.
+        
+        Проект "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-m5ct5i\\cmTC_8e7e4.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_8e7e4.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-m5ct5i\\Debug\\".
+          Создание каталога "cmTC_8e7e4.dir\\Debug\\cmTC_8e7e4.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_8e7e4.dir\\Debug\\cmTC_8e7e4.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_8e7e4.dir\\Debug\\cmTC_8e7e4.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_D3D12_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8e7e4.dir\\Debug\\\\" /Fd"cmTC_8e7e4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-m5ct5i\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33521 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_D3D12_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8e7e4.dir\\Debug\\\\" /Fd"cmTC_8e7e4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-m5ct5i\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-m5ct5i\\Debug\\cmTC_8e7e4.exe" /INCREMENTAL /ILK:"cmTC_8e7e4.dir\\Debug\\cmTC_8e7e4.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-m5ct5i/Debug/cmTC_8e7e4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-m5ct5i/Debug/cmTC_8e7e4.lib" /MACHINE:X64  /machine:x64 cmTC_8e7e4.dir\\Debug\\src.obj
+          cmTC_8e7e4.vcxproj -> D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-m5ct5i\\Debug\\cmTC_8e7e4.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_8e7e4.dir\\Debug\\cmTC_8e7e4.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_8e7e4.dir\\Debug\\cmTC_8e7e4.tlog\\cmTC_8e7e4.lastbuildstate".
+        Сборка проекта "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-m5ct5i\\cmTC_8e7e4.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.88
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:1728 (check_include_file)"
+    checks:
+      - "Looking for ddraw.h"
+    directories:
+      source: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-csne2o"
+      binary: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-csne2o"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external/cmake"
+    buildResult:
+      variable: "HAVE_DDRAW_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-csne2o'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ec84f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+        Сборка начата 01.03.2024 18:11:28.
+        
+        Проект "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-csne2o\\cmTC_ec84f.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_ec84f.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-csne2o\\Debug\\".
+          Создание каталога "cmTC_ec84f.dir\\Debug\\cmTC_ec84f.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_ec84f.dir\\Debug\\cmTC_ec84f.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_ec84f.dir\\Debug\\cmTC_ec84f.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ec84f.dir\\Debug\\\\" /Fd"cmTC_ec84f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-csne2o\\CheckIncludeFile.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33521 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ec84f.dir\\Debug\\\\" /Fd"cmTC_ec84f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-csne2o\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-csne2o\\Debug\\cmTC_ec84f.exe" /INCREMENTAL /ILK:"cmTC_ec84f.dir\\Debug\\cmTC_ec84f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-csne2o/Debug/cmTC_ec84f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-csne2o/Debug/cmTC_ec84f.lib" /MACHINE:X64  /machine:x64 cmTC_ec84f.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_ec84f.vcxproj -> D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-csne2o\\Debug\\cmTC_ec84f.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_ec84f.dir\\Debug\\cmTC_ec84f.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_ec84f.dir\\Debug\\cmTC_ec84f.tlog\\cmTC_ec84f.lastbuildstate".
+        Сборка проекта "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-csne2o\\cmTC_ec84f.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.85
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:1729 (check_include_file)"
+    checks:
+      - "Looking for dsound.h"
+    directories:
+      source: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-4igyed"
+      binary: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-4igyed"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external/cmake"
+    buildResult:
+      variable: "HAVE_DSOUND_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-4igyed'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0192f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+        Сборка начата 01.03.2024 18:11:29.
+        
+        Проект "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-4igyed\\cmTC_0192f.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_0192f.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-4igyed\\Debug\\".
+          Создание каталога "cmTC_0192f.dir\\Debug\\cmTC_0192f.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_0192f.dir\\Debug\\cmTC_0192f.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_0192f.dir\\Debug\\cmTC_0192f.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0192f.dir\\Debug\\\\" /Fd"cmTC_0192f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-4igyed\\CheckIncludeFile.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33521 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0192f.dir\\Debug\\\\" /Fd"cmTC_0192f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-4igyed\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-4igyed\\Debug\\cmTC_0192f.exe" /INCREMENTAL /ILK:"cmTC_0192f.dir\\Debug\\cmTC_0192f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-4igyed/Debug/cmTC_0192f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-4igyed/Debug/cmTC_0192f.lib" /MACHINE:X64  /machine:x64 cmTC_0192f.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_0192f.vcxproj -> D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-4igyed\\Debug\\cmTC_0192f.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_0192f.dir\\Debug\\cmTC_0192f.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_0192f.dir\\Debug\\cmTC_0192f.tlog\\cmTC_0192f.lastbuildstate".
+        Сборка проекта "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-4igyed\\cmTC_0192f.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.89
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:1730 (check_include_file)"
+    checks:
+      - "Looking for dinput.h"
+    directories:
+      source: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-sz9100"
+      binary: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-sz9100"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external/cmake"
+    buildResult:
+      variable: "HAVE_DINPUT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-sz9100'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_35c09.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+        Сборка начата 01.03.2024 18:11:31.
+        
+        Проект "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-sz9100\\cmTC_35c09.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_35c09.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-sz9100\\Debug\\".
+          Создание каталога "cmTC_35c09.dir\\Debug\\cmTC_35c09.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_35c09.dir\\Debug\\cmTC_35c09.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_35c09.dir\\Debug\\cmTC_35c09.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_35c09.dir\\Debug\\\\" /Fd"cmTC_35c09.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-sz9100\\CheckIncludeFile.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33521 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_35c09.dir\\Debug\\\\" /Fd"cmTC_35c09.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-sz9100\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+          C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\um\\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-sz9100\\Debug\\cmTC_35c09.exe" /INCREMENTAL /ILK:"cmTC_35c09.dir\\Debug\\cmTC_35c09.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-sz9100/Debug/cmTC_35c09.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-sz9100/Debug/cmTC_35c09.lib" /MACHINE:X64  /machine:x64 cmTC_35c09.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_35c09.vcxproj -> D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-sz9100\\Debug\\cmTC_35c09.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_35c09.dir\\Debug\\cmTC_35c09.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_35c09.dir\\Debug\\cmTC_35c09.tlog\\cmTC_35c09.lastbuildstate".
+        Сборка проекта "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-sz9100\\cmTC_35c09.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.84
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:1734 (check_include_file)"
+    checks:
+      - "Looking for dxgi.h"
+    directories:
+      source: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-zjh5p8"
+      binary: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-zjh5p8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external/cmake"
+    buildResult:
+      variable: "HAVE_DXGI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-zjh5p8'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a2a06.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+        Сборка начата 01.03.2024 18:11:32.
+        
+        Проект "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-zjh5p8\\cmTC_a2a06.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_a2a06.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-zjh5p8\\Debug\\".
+          Создание каталога "cmTC_a2a06.dir\\Debug\\cmTC_a2a06.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_a2a06.dir\\Debug\\cmTC_a2a06.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_a2a06.dir\\Debug\\cmTC_a2a06.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a2a06.dir\\Debug\\\\" /Fd"cmTC_a2a06.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-zjh5p8\\CheckIncludeFile.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33521 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a2a06.dir\\Debug\\\\" /Fd"cmTC_a2a06.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-zjh5p8\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-zjh5p8\\Debug\\cmTC_a2a06.exe" /INCREMENTAL /ILK:"cmTC_a2a06.dir\\Debug\\cmTC_a2a06.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-zjh5p8/Debug/cmTC_a2a06.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-zjh5p8/Debug/cmTC_a2a06.lib" /MACHINE:X64  /machine:x64 cmTC_a2a06.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_a2a06.vcxproj -> D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-zjh5p8\\Debug\\cmTC_a2a06.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_a2a06.dir\\Debug\\cmTC_a2a06.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_a2a06.dir\\Debug\\cmTC_a2a06.tlog\\cmTC_a2a06.lastbuildstate".
+        Сборка проекта "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-zjh5p8\\cmTC_a2a06.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.85
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:1748 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_XINPUT_H"
+    directories:
+      source: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-kbb80n"
+      binary: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-kbb80n"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external/cmake"
+    buildResult:
+      variable: "HAVE_XINPUT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-kbb80n'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5af92.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+        Сборка начата 01.03.2024 18:11:33.
+        
+        Проект "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-kbb80n\\cmTC_5af92.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_5af92.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-kbb80n\\Debug\\".
+          Создание каталога "cmTC_5af92.dir\\Debug\\cmTC_5af92.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_5af92.dir\\Debug\\cmTC_5af92.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_5af92.dir\\Debug\\cmTC_5af92.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_XINPUT_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5af92.dir\\Debug\\\\" /Fd"cmTC_5af92.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-kbb80n\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33521 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_XINPUT_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5af92.dir\\Debug\\\\" /Fd"cmTC_5af92.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-kbb80n\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-kbb80n\\Debug\\cmTC_5af92.exe" /INCREMENTAL /ILK:"cmTC_5af92.dir\\Debug\\cmTC_5af92.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-kbb80n/Debug/cmTC_5af92.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-kbb80n/Debug/cmTC_5af92.lib" /MACHINE:X64  /machine:x64 cmTC_5af92.dir\\Debug\\src.obj
+          cmTC_5af92.vcxproj -> D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-kbb80n\\Debug\\cmTC_5af92.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_5af92.dir\\Debug\\cmTC_5af92.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_5af92.dir\\Debug\\cmTC_5af92.tlog\\cmTC_5af92.lastbuildstate".
+        Сборка проекта "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-kbb80n\\cmTC_5af92.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.84
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:1752 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_XINPUT_GAMEPAD_EX"
+    directories:
+      source: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-szts5p"
+      binary: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-szts5p"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external/cmake"
+    buildResult:
+      variable: "HAVE_XINPUT_GAMEPAD_EX"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-szts5p'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1c045.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+        Сборка начата 01.03.2024 18:11:34.
+        
+        Проект "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-szts5p\\cmTC_1c045.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_1c045.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-szts5p\\Debug\\".
+          Создание каталога "cmTC_1c045.dir\\Debug\\cmTC_1c045.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_1c045.dir\\Debug\\cmTC_1c045.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_1c045.dir\\Debug\\cmTC_1c045.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_XINPUT_GAMEPAD_EX /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1c045.dir\\Debug\\\\" /Fd"cmTC_1c045.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-szts5p\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33521 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_XINPUT_GAMEPAD_EX /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1c045.dir\\Debug\\\\" /Fd"cmTC_1c045.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-szts5p\\src.c"
+          src.c
+        D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-szts5p\\src.c(4,25): error C2061: синтаксическая ошибка: идентификатор "x1" [D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-szts5p\\cmTC_1c045.vcxproj]
+        D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-szts5p\\src.c(4,25): error C2059: синтаксическая ошибка: ; [D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-szts5p\\cmTC_1c045.vcxproj]
+        Сборка проекта "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-szts5p\\cmTC_1c045.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-szts5p\\cmTC_1c045.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-szts5p\\src.c(4,25): error C2061: синтаксическая ошибка: идентификатор "x1" [D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-szts5p\\cmTC_1c045.vcxproj]
+          D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-szts5p\\src.c(4,25): error C2059: синтаксическая ошибка: ; [D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-szts5p\\cmTC_1c045.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 2
+        
+        Прошло времени 00:00:00.61
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:1757 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_XINPUT_STATE_EX"
+    directories:
+      source: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-o6f09m"
+      binary: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-o6f09m"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external/cmake"
+    buildResult:
+      variable: "HAVE_XINPUT_STATE_EX"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-o6f09m'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_dbd2c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+        Сборка начата 01.03.2024 18:11:35.
+        
+        Проект "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-o6f09m\\cmTC_dbd2c.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_dbd2c.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-o6f09m\\Debug\\".
+          Создание каталога "cmTC_dbd2c.dir\\Debug\\cmTC_dbd2c.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_dbd2c.dir\\Debug\\cmTC_dbd2c.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_dbd2c.dir\\Debug\\cmTC_dbd2c.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_XINPUT_STATE_EX /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dbd2c.dir\\Debug\\\\" /Fd"cmTC_dbd2c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-o6f09m\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33521 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_XINPUT_STATE_EX /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dbd2c.dir\\Debug\\\\" /Fd"cmTC_dbd2c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-o6f09m\\src.c"
+          src.c
+        D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-o6f09m\\src.c(4,23): error C2061: синтаксическая ошибка: идентификатор "s1" [D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-o6f09m\\cmTC_dbd2c.vcxproj]
+        D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-o6f09m\\src.c(4,23): error C2059: синтаксическая ошибка: ; [D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-o6f09m\\cmTC_dbd2c.vcxproj]
+        Сборка проекта "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-o6f09m\\cmTC_dbd2c.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-o6f09m\\cmTC_dbd2c.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-o6f09m\\src.c(4,23): error C2061: синтаксическая ошибка: идентификатор "s1" [D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-o6f09m\\cmTC_dbd2c.vcxproj]
+          D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-o6f09m\\src.c(4,23): error C2059: синтаксическая ошибка: ; [D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-o6f09m\\cmTC_dbd2c.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 2
+        
+        Прошло времени 00:00:00.62
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:1762 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_WINDOWS_GAMING_INPUT_H"
+    directories:
+      source: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-3vst01"
+      binary: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-3vst01"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external/cmake"
+    buildResult:
+      variable: "HAVE_WINDOWS_GAMING_INPUT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-3vst01'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_43abc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+        Сборка начата 01.03.2024 18:11:36.
+        
+        Проект "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-3vst01\\cmTC_43abc.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_43abc.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-3vst01\\Debug\\".
+          Создание каталога "cmTC_43abc.dir\\Debug\\cmTC_43abc.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_43abc.dir\\Debug\\cmTC_43abc.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_43abc.dir\\Debug\\cmTC_43abc.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_WINDOWS_GAMING_INPUT_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_43abc.dir\\Debug\\\\" /Fd"cmTC_43abc.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-3vst01\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33521 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_WINDOWS_GAMING_INPUT_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_43abc.dir\\Debug\\\\" /Fd"cmTC_43abc.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-3vst01\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-3vst01\\Debug\\cmTC_43abc.exe" /INCREMENTAL /ILK:"cmTC_43abc.dir\\Debug\\cmTC_43abc.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-3vst01/Debug/cmTC_43abc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-3vst01/Debug/cmTC_43abc.lib" /MACHINE:X64  /machine:x64 cmTC_43abc.dir\\Debug\\src.obj
+          cmTC_43abc.vcxproj -> D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-3vst01\\Debug\\cmTC_43abc.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_43abc.dir\\Debug\\cmTC_43abc.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_43abc.dir\\Debug\\cmTC_43abc.tlog\\cmTC_43abc.lastbuildstate".
+        Сборка проекта "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-3vst01\\cmTC_43abc.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:01.62
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:1770 (check_include_file)"
+    checks:
+      - "Looking for tpcshrd.h"
+    directories:
+      source: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-tm9cza"
+      binary: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-tm9cza"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external/cmake"
+    buildResult:
+      variable: "HAVE_TPCSHRD_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-tm9cza'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f74e9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+        Сборка начата 01.03.2024 18:11:37.
+        
+        Проект "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-tm9cza\\cmTC_f74e9.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_f74e9.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-tm9cza\\Debug\\".
+          Создание каталога "cmTC_f74e9.dir\\Debug\\cmTC_f74e9.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_f74e9.dir\\Debug\\cmTC_f74e9.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_f74e9.dir\\Debug\\cmTC_f74e9.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f74e9.dir\\Debug\\\\" /Fd"cmTC_f74e9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-tm9cza\\CheckIncludeFile.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33521 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f74e9.dir\\Debug\\\\" /Fd"cmTC_f74e9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-tm9cza\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-tm9cza\\Debug\\cmTC_f74e9.exe" /INCREMENTAL /ILK:"cmTC_f74e9.dir\\Debug\\cmTC_f74e9.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-tm9cza/Debug/cmTC_f74e9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-tm9cza/Debug/cmTC_f74e9.lib" /MACHINE:X64  /machine:x64 cmTC_f74e9.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_f74e9.vcxproj -> D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-tm9cza\\Debug\\cmTC_f74e9.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_f74e9.dir\\Debug\\cmTC_f74e9.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_f74e9.dir\\Debug\\cmTC_f74e9.tlog\\cmTC_f74e9.lastbuildstate".
+        Сборка проекта "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-tm9cza\\cmTC_f74e9.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.84
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:1771 (check_include_file)"
+    checks:
+      - "Looking for roapi.h"
+    directories:
+      source: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-mwv4tz"
+      binary: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-mwv4tz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external/cmake"
+    buildResult:
+      variable: "HAVE_ROAPI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-mwv4tz'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4508b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+        Сборка начата 01.03.2024 18:11:39.
+        
+        Проект "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-mwv4tz\\cmTC_4508b.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_4508b.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-mwv4tz\\Debug\\".
+          Создание каталога "cmTC_4508b.dir\\Debug\\cmTC_4508b.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_4508b.dir\\Debug\\cmTC_4508b.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_4508b.dir\\Debug\\cmTC_4508b.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4508b.dir\\Debug\\\\" /Fd"cmTC_4508b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-mwv4tz\\CheckIncludeFile.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33521 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4508b.dir\\Debug\\\\" /Fd"cmTC_4508b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-mwv4tz\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-mwv4tz\\Debug\\cmTC_4508b.exe" /INCREMENTAL /ILK:"cmTC_4508b.dir\\Debug\\cmTC_4508b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-mwv4tz/Debug/cmTC_4508b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-mwv4tz/Debug/cmTC_4508b.lib" /MACHINE:X64  /machine:x64 cmTC_4508b.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_4508b.vcxproj -> D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-mwv4tz\\Debug\\cmTC_4508b.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_4508b.dir\\Debug\\cmTC_4508b.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_4508b.dir\\Debug\\cmTC_4508b.tlog\\cmTC_4508b.lastbuildstate".
+        Сборка проекта "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-mwv4tz\\cmTC_4508b.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.86
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:1772 (check_include_file)"
+    checks:
+      - "Looking for mmdeviceapi.h"
+    directories:
+      source: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-rnhr47"
+      binary: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-rnhr47"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external/cmake"
+    buildResult:
+      variable: "HAVE_MMDEVICEAPI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-rnhr47'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3bbcc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+        Сборка начата 01.03.2024 18:11:40.
+        
+        Проект "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-rnhr47\\cmTC_3bbcc.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_3bbcc.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-rnhr47\\Debug\\".
+          Создание каталога "cmTC_3bbcc.dir\\Debug\\cmTC_3bbcc.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_3bbcc.dir\\Debug\\cmTC_3bbcc.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_3bbcc.dir\\Debug\\cmTC_3bbcc.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3bbcc.dir\\Debug\\\\" /Fd"cmTC_3bbcc.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-rnhr47\\CheckIncludeFile.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33521 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3bbcc.dir\\Debug\\\\" /Fd"cmTC_3bbcc.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-rnhr47\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-rnhr47\\Debug\\cmTC_3bbcc.exe" /INCREMENTAL /ILK:"cmTC_3bbcc.dir\\Debug\\cmTC_3bbcc.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-rnhr47/Debug/cmTC_3bbcc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-rnhr47/Debug/cmTC_3bbcc.lib" /MACHINE:X64  /machine:x64 cmTC_3bbcc.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_3bbcc.vcxproj -> D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-rnhr47\\Debug\\cmTC_3bbcc.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_3bbcc.dir\\Debug\\cmTC_3bbcc.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_3bbcc.dir\\Debug\\cmTC_3bbcc.tlog\\cmTC_3bbcc.lastbuildstate".
+        Сборка проекта "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-rnhr47\\cmTC_3bbcc.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.85
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:1773 (check_include_file)"
+    checks:
+      - "Looking for audioclient.h"
+    directories:
+      source: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-22dnwl"
+      binary: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-22dnwl"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external/cmake"
+    buildResult:
+      variable: "HAVE_AUDIOCLIENT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-22dnwl'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_672ae.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+        Сборка начата 01.03.2024 18:11:41.
+        
+        Проект "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-22dnwl\\cmTC_672ae.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_672ae.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-22dnwl\\Debug\\".
+          Создание каталога "cmTC_672ae.dir\\Debug\\cmTC_672ae.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_672ae.dir\\Debug\\cmTC_672ae.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_672ae.dir\\Debug\\cmTC_672ae.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_672ae.dir\\Debug\\\\" /Fd"cmTC_672ae.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-22dnwl\\CheckIncludeFile.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33521 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_672ae.dir\\Debug\\\\" /Fd"cmTC_672ae.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-22dnwl\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-22dnwl\\Debug\\cmTC_672ae.exe" /INCREMENTAL /ILK:"cmTC_672ae.dir\\Debug\\cmTC_672ae.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-22dnwl/Debug/cmTC_672ae.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-22dnwl/Debug/cmTC_672ae.lib" /MACHINE:X64  /machine:x64 cmTC_672ae.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_672ae.vcxproj -> D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-22dnwl\\Debug\\cmTC_672ae.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_672ae.dir\\Debug\\cmTC_672ae.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_672ae.dir\\Debug\\cmTC_672ae.tlog\\cmTC_672ae.lastbuildstate".
+        Сборка проекта "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-22dnwl\\cmTC_672ae.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.87
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:1774 (check_include_file)"
+    checks:
+      - "Looking for sensorsapi.h"
+    directories:
+      source: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-9j229o"
+      binary: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-9j229o"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external/cmake"
+    buildResult:
+      variable: "HAVE_SENSORSAPI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-9j229o'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_03744.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+        Сборка начата 01.03.2024 18:11:42.
+        
+        Проект "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-9j229o\\cmTC_03744.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_03744.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-9j229o\\Debug\\".
+          Создание каталога "cmTC_03744.dir\\Debug\\cmTC_03744.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_03744.dir\\Debug\\cmTC_03744.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_03744.dir\\Debug\\cmTC_03744.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_03744.dir\\Debug\\\\" /Fd"cmTC_03744.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-9j229o\\CheckIncludeFile.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33521 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_03744.dir\\Debug\\\\" /Fd"cmTC_03744.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-9j229o\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-9j229o\\Debug\\cmTC_03744.exe" /INCREMENTAL /ILK:"cmTC_03744.dir\\Debug\\cmTC_03744.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-9j229o/Debug/cmTC_03744.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-9j229o/Debug/cmTC_03744.lib" /MACHINE:X64  /machine:x64 cmTC_03744.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_03744.vcxproj -> D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-9j229o\\Debug\\cmTC_03744.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_03744.dir\\Debug\\cmTC_03744.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_03744.dir\\Debug\\cmTC_03744.tlog\\cmTC_03744.lastbuildstate".
+        Сборка проекта "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-9j229o\\cmTC_03744.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.86
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:1775 (check_include_file)"
+    checks:
+      - "Looking for shellscalingapi.h"
+    directories:
+      source: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-u2ssjm"
+      binary: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-u2ssjm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external/cmake"
+    buildResult:
+      variable: "HAVE_SHELLSCALINGAPI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-u2ssjm'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f0dd1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+        Сборка начата 01.03.2024 18:11:43.
+        
+        Проект "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-u2ssjm\\cmTC_f0dd1.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_f0dd1.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-u2ssjm\\Debug\\".
+          Создание каталога "cmTC_f0dd1.dir\\Debug\\cmTC_f0dd1.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_f0dd1.dir\\Debug\\cmTC_f0dd1.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_f0dd1.dir\\Debug\\cmTC_f0dd1.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f0dd1.dir\\Debug\\\\" /Fd"cmTC_f0dd1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-u2ssjm\\CheckIncludeFile.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.39.33521 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f0dd1.dir\\Debug\\\\" /Fd"cmTC_f0dd1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-u2ssjm\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-u2ssjm\\Debug\\cmTC_f0dd1.exe" /INCREMENTAL /ILK:"cmTC_f0dd1.dir\\Debug\\cmTC_f0dd1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-u2ssjm/Debug/cmTC_f0dd1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/CMakeScratch/TryCompile-u2ssjm/Debug/cmTC_f0dd1.lib" /MACHINE:X64  /machine:x64 cmTC_f0dd1.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_f0dd1.vcxproj -> D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-u2ssjm\\Debug\\cmTC_f0dd1.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_f0dd1.dir\\Debug\\cmTC_f0dd1.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_f0dd1.dir\\Debug\\cmTC_f0dd1.tlog\\cmTC_f0dd1.lastbuildstate".
+        Сборка проекта "D:\\labexample\\build\\external-libs\\installed\\source-tree\\src\\SDL2-external-build\\CMakeFiles\\CMakeScratch\\TryCompile-u2ssjm\\cmTC_f0dd1.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.86
+        
+      exitCode: 0
+...
