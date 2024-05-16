@@ -56,13 +56,13 @@ void clear_screen(SDL_Surface *s)
 int main(int argc, char *argv[])
 {
   float scale = 100;
-  int n = 10;
+  int n = 6;
   float move_x = SCREEN_WIDTH / 2;
   float move_y = SCREEN_HEIGHT / 2;
   float alpha = 0, beta = 0;
   int mouse_x = SCREEN_WIDTH / 2;
   int mouse_y = SCREEN_HEIGHT / 2;
-  int vertices = 3;
+  int vertices = 4;
   float diff_x = 0, diff_y;
   if (!init()) {
     printf("Failed to initialize!\n");
