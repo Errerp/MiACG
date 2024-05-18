@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/labexample/build/CMakeFiles/SDL2-external"
+		},
+		{
+			"file" : "D:/labexample/build/CMakeFiles/a55ff3e8fed29456af35b11f6bc78843/SDL2-external.rule"
+		},
+		{
+			"file" : "D:/labexample/build/CMakeFiles/cb8074cf5beded7a662a057ef5277743/SDL2-external-complete.rule"
+		},
+		{
+			"file" : "D:/labexample/build/CMakeFiles/a8f15ffa138ee7b1a8387eb92f651731/SDL2-external-build.rule"
+		},
+		{
+			"file" : "D:/labexample/build/CMakeFiles/a8f15ffa138ee7b1a8387eb92f651731/SDL2-external-configure.rule"
+		},
+		{
+			"file" : "D:/labexample/build/CMakeFiles/a8f15ffa138ee7b1a8387eb92f651731/SDL2-external-download.rule"
+		},
+		{
+			"file" : "D:/labexample/build/CMakeFiles/a8f15ffa138ee7b1a8387eb92f651731/SDL2-external-install.rule"
+		},
+		{
+			"file" : "D:/labexample/build/CMakeFiles/a8f15ffa138ee7b1a8387eb92f651731/SDL2-external-mkdir.rule"
+		},
+		{
+			"file" : "D:/labexample/build/CMakeFiles/a8f15ffa138ee7b1a8387eb92f651731/SDL2-external-patch_disconnected.rule"
+		},
+		{
+			"file" : "D:/labexample/build/CMakeFiles/a8f15ffa138ee7b1a8387eb92f651731/SDL2-external-update_disconnected.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"SDL2-external"
+		],
+		"name" : "SDL2-external"
+	}
+}

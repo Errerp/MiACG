@@ -1,0 +1,65 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDependentOption.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeParseArguments.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakePushCheckState.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceRuns.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCXXCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFiles.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckLanguage.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckOBJCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckStructHasMember.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckSymbolExists.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/FindGit.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/FindPkgConfig.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckFlagCommonConfig.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceRuns.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/WriteBasicConfigVersionFile.cmake
+D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/3.29.0-rc2/CMakeCCompiler.cmake
+D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/3.29.0-rc2/CMakeCXXCompiler.cmake
+D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/3.29.0-rc2/CMakeRCCompiler.cmake
+D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/CMakeFiles/3.29.0-rc2/CMakeSystem.cmake
+D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external-build/SDL_config.h.intermediate
+D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external/CMakeLists.txt
+D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external/SDL2.spec.in
+D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external/SDL2Config.cmake.in
+D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external/cmake/CheckCPUArchitecture.cmake
+D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external/cmake/macros.cmake
+D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external/cmake/sdlchecks.cmake
+D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external/cmake_uninstall.cmake.in
+D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external/include/SDL_config.h.cmake
+D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external/include/SDL_revision.h.cmake
+D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external/sdl2-config.in
+D:/labexample/build/external-libs/installed/source-tree/src/SDL2-external/sdl2.pc.in

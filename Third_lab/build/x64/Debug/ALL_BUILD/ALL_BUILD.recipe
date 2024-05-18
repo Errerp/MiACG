@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>D:\labexample\build\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\labexample\build\x64\Debug\SDL2-external</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\labexample\build\x64\Debug\glm-external</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\labexample\build\x64\Debug\external_all</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\labexample\build\Debug\sdl2-demo.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\labexample\build\x64\Debug\ALL_BUILD</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>
