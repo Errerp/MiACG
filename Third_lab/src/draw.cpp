@@ -1,34 +1,9 @@
-﻿#include "draw.h"
+#include "draw.h"
 
 #include <glm/glm.hpp>
 #include <glm/ext.hpp>
 
 #define RGB32(r, g, b) static_cast<uint32_t>((((static_cast<uint32_t>(b) << 8) | g) << 8) | r)
-
-void madeWindow(int first_window, double *X_MIN,
-                double *X_MAX ,
-                double *Y_MIN,
-                double *Y_MAX )
-{
-  if (first_window == 0) {
-     *X_MIN = 100;
-     *X_MAX = 300;
-     *Y_MIN = 150;
-     *Y_MAX = 250;
-  } else if (first_window == 1) {
-     *X_MIN = 130;
-     *X_MAX = 450;
-     *Y_MIN = 40;
-     *Y_MAX = 300;
-  }
-  else if (first_window == 2)
-  {
-     *X_MIN =300;
-     *X_MAX = 400;
-     *Y_MIN = 300;
-     *Y_MAX = 400;
-  }
-}
 
 void multiplyMatrix(const double matrix[3][3], float *x,float *y)
 {
@@ -345,7 +320,7 @@ void draw_axis(SDL_Surface *s){
     put_pixel32(s, SCREEN_WIDTH / 2, j,  RGB32(105, 105, 105));
 }
 
-void draw_content(SDL_Surface *s, int first_window, double X_MIN, double X_MAX, double Y_MIN, double Y_MAX)
+void draw_content(SDL_Surface *s, double X_MIN, double X_MAX, double Y_MIN, double Y_MAX)
 {
   for (int i = X_MIN; i < X_MAX; i++)
     put_pixel32(s, i, Y_MIN, RGB32(0, 200, 200));
@@ -360,9 +335,8 @@ void draw_content(SDL_Surface *s, int first_window, double X_MIN, double X_MAX, 
 void draw(SDL_Surface *s, int coverage, float scale, float move_x, float move_y, float nu, int num, float R, float a, float centerx, float centery, float alpha, float rotationx, float rotationy)
 {
   draw_axis(s);
-  double X_MIN = 200, X_MAX = 500, Y_MIN = 100, Y_MAX = 400;
-  madeWindow(0, &X_MIN, &X_MAX, &Y_MIN, &Y_MAX);
-  draw_content(s, 0, X_MIN, X_MAX, Y_MIN, Y_MAX);
+  double X_MIN = 100, X_MAX = 400, Y_MIN = 200, Y_MAX = 300;
+  draw_content(s, X_MIN, X_MAX, Y_MIN, Y_MAX);
   int **arr = new int *[num];
   for (int i = 0; i < num; i++) {
     arr[i] = new int[2];
