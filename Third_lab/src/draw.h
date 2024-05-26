@@ -1,23 +1,17 @@
 #pragma once
 #include <SDL.h>
+#include <math.h>
 #include <cassert>
+#include <iostream>
+const int INSIDE = 0;// 0000
+const int LEFT = 1;// 0001
+const int RIGHT = 2;// 0010
+const int BOTTOM = 4;// 0100
+const int TOP = 8;// 1000
 
-// Размеры экрана
-const int SCREEN_WIDTH = 1920;
-const int SCREEN_HEIGHT = 1080;
+//Screen dimension constants
+const int SCREEN_WIDTH = 640;
+const int SCREEN_HEIGHT = 480;
 
-struct Point
-{
-  float x;
-  float y;
-};
-
-struct Square
-{
-  float x;
-  float y;
-};
-
-void affine_transform(struct Point *points, float mouse_x, float mouse_y, int vertices, float move_x, float move_y, float alpha, float beta, float &diff_x, float &diff_y);
-void draw(SDL_Surface *s, float mouse_x, float mouse_y, int vertices, float scale, float move_x, float move_y, float alpha, float beta, float &diff_x, float &diff_y, float scale_sq);
-void draw_figure(SDL_Surface *s, struct Point *points, struct Square *square, int vertices);
+void draw_n(SDL_Surface *s, int coverage, float scale, float move_x, float move_y, int num, float R, float a, float centerx, float centery, float alpha, int flag, int **arr, float nu, int flag2, float rotationx, float rotationy, double X_MIN, double X_MAX, double Y_MIN, double Y_MAX);
+void draw(SDL_Surface *s, int coverage, float scale, float move_x, float move_y, float nu, int num, float R, float a, float centerx, float centery, float alpha, float rotationx, float rotationy);
