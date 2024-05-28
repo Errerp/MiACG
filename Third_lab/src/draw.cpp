@@ -1,4 +1,4 @@
-﻿#include "draw.h"
+#include "draw.h"
 
 #include <glm/glm.hpp>
 #include <glm/ext.hpp>
