@@ -5,31 +5,6 @@
 
 #define RGB32(r, g, b) static_cast<uint32_t>((((static_cast<uint32_t>(b) << 8) | g) << 8) | r)
 
-void madeWindow(int first_window, double *X_MIN,
-                double *X_MAX ,
-                double *Y_MIN,
-                double *Y_MAX )
-{
-  if (first_window == 0) {
-     *X_MIN = 100;
-     *X_MAX = 300;
-     *Y_MIN = 150;
-     *Y_MAX = 250;
-  } else if (first_window == 1) {
-     *X_MIN = 130;
-     *X_MAX = 450;
-     *Y_MIN = 40;
-     *Y_MAX = 300;
-  }
-  else if (first_window == 2)
-  {
-     *X_MIN =300;
-     *X_MAX = 400;
-     *Y_MIN = 300;
-     *Y_MAX = 400;
-  }
-}
-
 void multiplyMatrix(const double matrix[3][3], float *x,float *y)
 {
   double newX = matrix[0][0] * *x + matrix[0][1] * *y + matrix[0][2] * 1;
@@ -231,14 +206,14 @@ void line(SDL_Surface *s,int x1, int y1, int x2, int y2, int color)
   }
 }
 
-void draw_c(SDL_Surface *s, float x1, float x2, float y1, float y2, int *flag1, int coverage, double X_MIN, double X_MAX, double Y_MIN, double Y_MAX)
+void draw_c(SDL_Surface *s, float x1, float x2, float y1, float y2, int *flag1, int clipping, double X_MIN, double X_MAX, double Y_MIN, double Y_MAX)
 {
     float tmp1 = x1, tmp2 = x2, tmp3 = y1, tmp4 = y2;
     cohenSutherland(&x1, &y1, &x2, &y2, flag1, X_MIN, X_MAX, Y_MIN, Y_MAX);
-    if (coverage == 0)
+    if (clipping == 0)
     {
         if (*flag1 == 1)
-            line(s, x1, y1, x2, y2, RGB32(200, 100, 200));
+            line(s, x1, y1, x2, y2, RGB32(255, 102, 0));
         if (*flag1 == 0)
         {
             for (float t = 0; t <= 1; t += 0.0001f)
@@ -251,7 +226,7 @@ void draw_c(SDL_Surface *s, float x1, float x2, float y1, float y2, int *flag1, 
         }
         if (*flag1 == 3)
         {
-            line(s, x1, y1, x2, y2, RGB32(200, 100, 200));
+            line(s, x1, y1, x2, y2, RGB32(255, 102, 0));
             for (float t = 0; t <= 1; t += 0.0001f)
             {
                 tmp1 = (x1 - tmp1) * t + tmp1;
@@ -293,12 +268,12 @@ void draw_c(SDL_Surface *s, float x1, float x2, float y1, float y2, int *flag1, 
 
         if (*flag1 == 0)
         {
-            line(s, x1, y1, x2, y2, RGB32(200, 100, 200));
+            line(s, x1, y1, x2, y2, RGB32(255, 102, 0));
         }
         if (*flag1 == 3)
         {
-            line(s, tmp1, tmp3, x1, y1, RGB32(200, 100, 200));
-            line(s, tmp2, tmp4, x2, y2, RGB32(200, 100, 200));
+            line(s, tmp1, tmp3, x1, y1, RGB32(255, 102, 0));
+            line(s, tmp2, tmp4, x2, y2, RGB32(255, 102, 0));
             for (float t = 0; t <= 1; t += 0.0001f)
             {
                 x1 = (x2 - x1) * t + x1;
@@ -309,12 +284,12 @@ void draw_c(SDL_Surface *s, float x1, float x2, float y1, float y2, int *flag1, 
         }
         if (*flag1 == 4)
         {
-            line(s, tmp1, tmp3, tmp2, tmp4, RGB32(200, 100, 200));
+            line(s, tmp1, tmp3, tmp2, tmp4, RGB32(255, 102, 0));
         }
     }
 }
 
-void draw_n(SDL_Surface *s, int coverage, float scale, float move_x, float move_y, int num, float R, float a, float *centerx, float *centery, float alpha, int flag, int **arr, float nu, int flag2, float rotationx, float rotationy, double X_MIN, double X_MAX, double Y_MIN, double Y_MAX)
+void draw_n(SDL_Surface *s, int clipping, float scale, float move_x, float move_y, int num, float R, float a, float *centerx, float *centery, float alpha, int flag, int **arr, float nu, int flag2, float rotationx, float rotationy, double X_MIN, double X_MAX, double Y_MIN, double Y_MAX)
 {
   int flag1 = 10;
   for (int i = 0; i < num; i++) {
@@ -332,7 +307,7 @@ void draw_n(SDL_Surface *s, int coverage, float scale, float move_x, float move_
     translatePoint(&x2, &y2, move_x, move_y);
     rotatePointAround(&x2, &y2, rotationx, rotationy, alpha);
     scalePoint(&x2, &y2, scale, *centerx + move_x, *centery + move_y);
-    draw_c(s, x1, x2, y1, y2, &flag1, coverage, X_MIN, X_MAX, Y_MIN, Y_MAX);
+    draw_c(s, x1, x2, y1, y2, &flag1, clipping, X_MIN, X_MAX, Y_MIN, Y_MAX);
     }
 }
 
@@ -345,7 +320,7 @@ void draw_axis(SDL_Surface *s){
     put_pixel32(s, SCREEN_WIDTH / 2, j,  RGB32(105, 105, 105));
 }
 
-void draw_content(SDL_Surface *s, int first_window, double X_MIN, double X_MAX, double Y_MIN, double Y_MAX)
+void draw_content(SDL_Surface *s, double X_MIN, double X_MAX, double Y_MIN, double Y_MAX)
 {
   for (int i = X_MIN; i < X_MAX; i++)
     put_pixel32(s, i, Y_MIN, RGB32(0, 200, 200));
@@ -357,16 +332,15 @@ void draw_content(SDL_Surface *s, int first_window, double X_MIN, double X_MAX, 
     put_pixel32(s, X_MAX, j, RGB32(0, 200, 200));
 }
 
-void draw(SDL_Surface *s, int coverage, float scale, float move_x, float move_y, float nu, int num, float R, float a, float centerx, float centery, float alpha, float rotationx, float rotationy)
+void draw(SDL_Surface *s, int clipping, float scale, float move_x, float move_y, float nu, int num, float R, float a, float centerx, float centery, float alpha, float rotationx, float rotationy)
 {
   draw_axis(s);
-  double X_MIN = 200, X_MAX = 500, Y_MIN = 100, Y_MAX = 400;
-  madeWindow(0, &X_MIN, &X_MAX, &Y_MIN, &Y_MAX);
-  draw_content(s, 0, X_MIN, X_MAX, Y_MIN, Y_MAX);
+  double X_MIN = 100, X_MAX = 400, Y_MIN = 200, Y_MAX = 300;
+  draw_content(s, X_MIN, X_MAX, Y_MIN, Y_MAX);
   int **arr = new int *[num];
   for (int i = 0; i < num; i++) {
     arr[i] = new int[2];
   }
 
-  draw_n(s, coverage, scale, move_x, move_y, num, R, a, &centerx, &centery, alpha, 1, arr, nu, 0, rotationx, rotationy, X_MIN, X_MAX, Y_MIN, Y_MAX);
+  draw_n(s, clipping, scale, move_x, move_y, num, R, a, &centerx, &centery, alpha, 1, arr, nu, 0, rotationx, rotationy, X_MIN, X_MAX, Y_MIN, Y_MAX);
   }

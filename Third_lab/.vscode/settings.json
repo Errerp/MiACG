@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "cmath": "cpp",
-        "cassert": "cpp"
+        "cassert": "cpp",
+        "iostream": "cpp"
     }
 }

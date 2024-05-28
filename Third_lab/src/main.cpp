@@ -15,10 +15,10 @@ SDL_Renderer *gRenderer = NULL;
 SDL_Texture *gTexture = NULL;
 SDL_Surface *loadedSurface = NULL;
 
-void sdl(SDL_Surface *s, int coverage, float scale, float move_x, float move_y, float nu, int num, float R, float a, float centerx, float centery, float alpha, float rotationx, float rotationy)
+void sdl(SDL_Surface *s, int clipping, float scale, float move_x, float move_y, float nu, int num, float R, float a, float centerx, float centery, float alpha, float rotationx, float rotationy)
 {
   SDL_RenderClear(gRenderer);
-  draw(loadedSurface, coverage, scale, move_x, move_y, nu, num, R, a, centerx, centery, alpha, rotationx, rotationy);
+  draw(loadedSurface, clipping, scale, move_x, move_y, nu, num, R, a, centerx, centery, alpha, rotationx, rotationy);
   SDL_UpdateTexture(gTexture, NULL, loadedSurface->pixels, loadedSurface->pitch);
   SDL_RenderCopy(gRenderer, gTexture, NULL, NULL);
   SDL_RenderPresent(gRenderer);
@@ -80,7 +80,7 @@ int main(int argc, char *argv[])
     } else {
       bool quit = false;
       SDL_Event e;
-      int coverage = 1;
+      int clipping = 1;
       float nu = 0.1, move_y = 0, move_x = 0, scale = 1, move_y1 = move_y, move_x1 = move_x, newX = 0, newY = 0;
       int tmpmove_x1 = move_x1, tmpmove_y1 = move_y1;
       int flag = 0, k = 0, sum_of_move_x = 0,isdragging=0;
@@ -128,11 +128,11 @@ int main(int argc, char *argv[])
               clear_screen(loadedSurface);
               break;
             case SDL_SCANCODE_KP_5:
-              coverage = 0;
+              clipping = 0;
               clear_screen(loadedSurface);
               break;
             case SDL_SCANCODE_KP_8:
-              coverage = 1;
+              clipping = 1;
               clear_screen(loadedSurface);
               break;
             case SDL_SCANCODE_ESCAPE:
@@ -142,7 +142,7 @@ int main(int argc, char *argv[])
               break;
             }
           }
-            sdl(loadedSurface, coverage, scale, move_x, move_y, nu, num, R, a, centerx, centery, alpha, rotationx, rotationy);
+            sdl(loadedSurface, clipping, scale, move_x, move_y, nu, num, R, a, centerx, centery, alpha, rotationx, rotationy);
         }
       }
     }
