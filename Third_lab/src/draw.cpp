@@ -26,14 +26,11 @@ void translatePoint(float *x,float *y, double move_x, double move_y){
 
 }
 
-// Функция для вращения точки относительно произвольной точки на заданный угол
 void rotatePointAround(float *x,float *y, float centerx,float centery, double angle)
 {
   float x1 = *x, y1 = *y;
-  // Сдвигаем точку так, чтобы центр вращения стал началом координат
   translatePoint(&x1, &y1, -centerx , -centery );
 
-  // Выполняем вращение относительно нового начала координат
   double rotateMatrix[3][3] = {
     { cos(angle), sin(angle), 0 },
     { -sin(angle), cos(angle), 0 },
@@ -41,16 +38,13 @@ void rotatePointAround(float *x,float *y, float centerx,float centery, double an
   };
   multiplyMatrix(rotateMatrix,&x1,&y1 );
 
-  // Возвращаем точку в исходное положение
   translatePoint(&x1, &y1, +centerx , +centery );
   *x = x1;
   *y = y1;
 }
 
-// Функция для масштабирования точки относительно начала координат
 void scalePoint(float *x,float *y, double scale,float centerx,float centery)
 {
-
   float x1 = *x, y1 = *y;
   translatePoint(&x1, &y1, -centerx, -centery);
   double scaleMatrix[3][3] = {
@@ -63,16 +57,7 @@ void scalePoint(float *x,float *y, double scale,float centerx,float centery)
   *x = x1;
   *y = y1;
 }
-void moveFigureOnX(float *x1,float *y1,float *x2,float *y2)
-{
 
-    float move_x = 10;
-    float move_y = 0.0f;
-    translatePoint(x1, y1, move_x, move_y);// Первая точка
-    translatePoint(x2, y2, move_x, move_y);// Вторая точка
-
-}
-// Функция для определения кода области точки
 int computeCode(float x, float y, double X_MIN, double X_MAX, double Y_MIN, double Y_MAX)
 {
   int code = INSIDE;// Изначально считаем точку внутри окна
@@ -96,7 +81,6 @@ void cohenSutherland(float *xstart, float *ystart, float *xend, float *yend, int
   int has_hanged = 0;
 
   bool accept = false;
-
   while (true) {
     if (codeStart == 0 && codeEnd == 0) {
       if (has_hanged==0)
@@ -143,12 +127,10 @@ void cohenSutherland(float *xstart, float *ystart, float *xend, float *yend, int
     }
 
   }
-
-
 }
+
 void put_pixel32(SDL_Surface *surface, int x, int y, Uint32 pixel)
 {
-
   assert(NULL != surface);
   if ((x >= 0 && x <= 638) && (y >= 0 && y <= 478)) {
     Uint32 *pixels = (Uint32 *)surface->pixels;
@@ -201,7 +183,6 @@ void line(SDL_Surface *s,int x1, int y1, int x2, int y2, int color)
       } else
         d += d1;
       put_pixel32(s, x, y, color);
-
     }
   }
 }
@@ -289,7 +270,7 @@ void draw_c(SDL_Surface *s, float x1, float x2, float y1, float y2, int *flag1, 
     }
 }
 
-void draw_n(SDL_Surface *s, int clipping, float scale, float move_x, float move_y, int num, float R, float a, float *centerx, float *centery, float alpha, int flag, int **arr, float nu, int flag2, float rotationx, float rotationy, double X_MIN, double X_MAX, double Y_MIN, double Y_MAX)
+void draw_n(SDL_Surface *s, int clipping, float scale, float move_x, float move_y, int num, float R, float a, float *centerx, float *centery, float alpha, int flag, int **arr, int flag2, float rotationx, float rotationy, double X_MIN, double X_MAX, double Y_MIN, double Y_MAX)
 {
   int flag1 = 10;
   for (int i = 0; i < num; i++) {
@@ -332,15 +313,16 @@ void draw_content(SDL_Surface *s, double X_MIN, double X_MAX, double Y_MIN, doub
     put_pixel32(s, X_MAX, j, RGB32(0, 200, 200));
 }
 
-void draw(SDL_Surface *s, int clipping, float scale, float move_x, float move_y, float nu, int num, float R, float a, float centerx, float centery, float alpha, float rotationx, float rotationy)
+void draw(SDL_Surface *s, int clipping, float scale, float move_x, float move_y, int num, float R, float a, float centerx, float centery, float alpha, float rotationx, float rotationy)
 {
   draw_axis(s);
   double X_MIN = 100, X_MAX = 400, Y_MIN = 200, Y_MAX = 300;
-  draw_content(s, X_MIN, X_MAX, Y_MIN, Y_MAX);
   int **arr = new int *[num];
   for (int i = 0; i < num; i++) {
     arr[i] = new int[2];
   }
 
-  draw_n(s, clipping, scale, move_x, move_y, num, R, a, &centerx, &centery, alpha, 1, arr, nu, 0, rotationx, rotationy, X_MIN, X_MAX, Y_MIN, Y_MAX);
+  draw_n(s, clipping, scale, move_x, move_y, num, R, a, &centerx, &centery, alpha, 1, arr, 0, rotationx, rotationy, X_MIN, X_MAX, Y_MIN, Y_MAX);
+
+  draw_content(s, X_MIN, X_MAX, Y_MIN, Y_MAX);
   }
