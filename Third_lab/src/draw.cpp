@@ -316,7 +316,7 @@ void draw_content(SDL_Surface *s, double X_MIN, double X_MAX, double Y_MIN, doub
 void draw(SDL_Surface *s, int clipping, float scale, float move_x, float move_y, int num, float R, float a, float centerx, float centery, float alpha, float rotationx, float rotationy)
 {
   draw_axis(s);
-  double X_MIN = 100, X_MAX = 400, Y_MIN = 200, Y_MAX = 300;
+  double X_MIN = 10, X_MAX = 400, Y_MIN = 200, Y_MAX = 300;
   int **arr = new int *[num];
   for (int i = 0; i < num; i++) {
     arr[i] = new int[2];
